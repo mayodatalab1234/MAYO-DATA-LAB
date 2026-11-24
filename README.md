@@ -1,46 +1,38 @@
-# MAYO DATA LAB — v2
+# MAYO DATA LAB — v3
 
 A responsive, custom-coded personal analytics portfolio for Maymikun Fadugba.
 
-## What's new in v2
-- Refined premium dark visual system with electric-blue and cyan accents.
-- Reworked hero artwork, cards, project previews, contact section and footer.
-- Improved mobile navigation with Escape-key support and accessible state labels.
-- Project filters now expose their selected state with `aria-pressed`.
-- Added subtle scroll-reveal motion with an automatic reduced-motion fallback.
-- Added skip navigation, stronger focus states, social preview metadata and improved page semantics.
-- Preserved the original portfolio content, contact details and honest project placeholders.
+## What's new in v3
+- Replaced illustrative project placeholders with three dashboard showcases using the original screenshots supplied by the portfolio owner.
+- Added responsive image previews, full-image links and visible feature tags.
+- Updated project counts and Excel filtering to show three showcases.
+- Preserved the existing navigation, filtering, reveal effects and responsive layout.
+
+## Dashboard showcases
+1. **Sales Performance Dashboard** — year, state, payment-method and product-category filters; sales, cost and profit summary cards; product comparison and monthly trend charts.
+2. **Sales, Product & Channel Analysis** — quantity, sales and discount summary cards; date, payment-method, sales-channel and product filters; city, product and channel visualisations.
+3. **Sales, Units & Pricing Dashboard** — city, sales-channel, product and month filters; units-price, units-sold and total-sales summary cards; product and monthly sales charts.
+
+These are dashboard showcases based on visible screenshot content, not independently validated case studies. Detailed case studies require the underlying datasets, methods and verified findings. No client details, results, recommendations or achievements have been invented.
 
 ## Run locally
 Open `index.html` in a modern browser. No build step or package installation is required.
 
 ## Deploy to Netlify
-1. Push the contents of this folder to a GitHub repository.
-2. In Netlify choose **Add new site → Import an existing project**.
-3. Connect the GitHub repository.
-4. Leave the build command blank.
-5. Set publish directory to `.` (repository root).
-6. Deploy.
-
-GitHub-connected deployment is recommended so updates are tracked.
+The repository is connected to Netlify. Commit changes to the connected `main` branch and Netlify should deploy automatically. Build command remains blank; publish directory is `.`.
 
 ## Files
-- `index.html` — semantic page structure, content and metadata
-- `styles.css` — responsive visual system, layout and motion
+- `index.html` — page structure, content and metadata
+- `styles.css` — responsive visual system and dashboard gallery styling
 - `script.js` — mobile navigation, project filtering, footer year and reveal effects
+- `sales-performance-dashboard.png`
+- `sales-product-channel-dashboard.png`
+- `sales-units-price-dashboard.png`
 
-## Contact details
+## Contact
 - Email: mayodatalab1234@gmail.com
 - WhatsApp/call: +2348081635166
 - WhatsApp: https://wa.me/2348081635166
 - Fiverr: https://www.fiverr.com/s/yeWroBZ
 
-## Portfolio integrity
-Project tiles remain explicitly labelled concept/portfolio slots. Their dashboard and SQL artwork is illustrative only, not completed client work or verified results. Add genuine screenshots, dataset context, methods and findings only when the actual projects are complete. No testimonials, client results, metrics or professional achievements have been fabricated.
-
-## Notes
-- Google Fonts are loaded remotely; the site still uses fallback fonts if they are unavailable.
-- The site is static HTML/CSS/JS and requires no dependencies.
-- Test the deployed site on real mobile devices and verify all contact links before public launch.
-
-Version: `MAYO_DATA_LAB_v2` — visual and experience upgrade based on the supplied v1 source archive.
+Version: `MAYO_DATA_LAB_v3`, building on the v2 website source.
